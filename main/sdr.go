@@ -141,12 +141,12 @@ func (e *ES) sdrConfig() (err error) {
 }
 
 const (
-	TunerGain    = 480
+	TunerGain    = 420
 	SampleRate   = 2083334
 	NewRTLFreq   = 28800000
 	NewTunerFreq = 28800000
 	CenterFreq   = 978000000
-	Bandwidth    = 1000000
+	Bandwidth    = 1300000
 )
 
 func (u *UAT) sdrConfig() (err error) {
